@@ -3,7 +3,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     display: grid;
     grid-template-rows: 1fr 10fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
