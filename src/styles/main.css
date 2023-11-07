@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 7fr 4fr;
+    grid-template-rows: 1fr 16fr 7fr;
     padding: 1rem;
     justify-items: center;
     background-color: grey;
@@ -17,6 +17,7 @@ main .web-apps .app-container {
 
 main .app-container .web-app-card {
     display: grid;
+    grid-template-rows: 2fr 5fr 1fr;
     justify-items: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem 0 1rem 0;
@@ -25,6 +26,10 @@ main .app-container .web-app-card {
     background-color: rgb(255, 255, 255);
 }
 
+main .web-app-card .app-title {
+    padding: 0.2rem;
+    font-size: 1.5rem;
+}
 
 main .web-app-card .button-container {
     display: grid;
