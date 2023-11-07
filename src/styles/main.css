@@ -69,3 +69,16 @@ main .position .company-name {
     text-align: center;
     border-bottom: 1px dotted rgb(0, 0, 0);
 }
+
+main .position .position-dates {
+    display: grid;
+    grid-template-columns: 8fr 1fr 8fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main .position .position-dates .dash {
+    margin: 0 1rem 0 1rem;
+    font-size: 1rem;
+}
