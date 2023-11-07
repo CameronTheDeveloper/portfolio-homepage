@@ -1,7 +1,35 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-rows: 1fr 7fr 4fr;
     padding: 1rem;
     justify-items: center;
     background-color: grey;
+}
+
+/* Web Apps */
+main .web-apps {
+    display: grid;
+}
+
+main .web-apps .app-container {
+    display: grid;
+}
+
+main .app-container .web-app-card {
+    display: grid;
+    justify-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+main .web-app-card .button-container {
+    display: grid;
+}
+
+main .web-app-card .button-container button {
+    background-color: rgb(154, 154, 154);
 }
