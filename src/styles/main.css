@@ -38,3 +38,32 @@ main .web-app-card .button-container {
 main .web-app-card .button-container button {
     background-color: rgb(154, 154, 154);
 }
+
+/* Positions */
+
+main .positions-section {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+
+main .positions-section .positions-container {
+    display: grid;
+}
+
+main .positions-container .position {
+    display: grid;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(115, 255, 90);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+main .position .position-title {
+    text-align: center;
+}
+
+main .position .company-name {
+    text-align: center;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
