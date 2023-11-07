@@ -7,15 +7,15 @@ main {
 }
 
 /* Web Apps */
-main .web-apps {
+main .apps-section {
     display: grid;
 }
 
-main .web-apps .app-container {
+main .apps-section .apps-container {
     display: grid;
 }
 
-main .app-container .web-app-card {
+main .apps-container .web-app-card {
     display: grid;
     grid-template-rows: 2fr 5fr 1fr;
     justify-items: center;
