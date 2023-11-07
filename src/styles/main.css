@@ -9,6 +9,7 @@ main {
 /* Web Apps */
 main .apps-section {
     display: grid;
+    justify-items: center;
 }
 
 main .apps-section .apps-container {
@@ -43,6 +44,7 @@ main .web-app-card .button-container button {
 
 main .positions-section {
     display: grid;
+    justify-items: center;
     grid-template-rows: 1fr 10fr;
 }
 
