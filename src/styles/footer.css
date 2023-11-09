@@ -2,7 +2,11 @@ footer {
     display: grid;
     grid-template-rows: 1fr 12fr 1fr;
     padding: 1rem 0 0 0;
-    justify-items: center;
+}
+
+footer .footer-title {
+    justify-self: center;
+    font-size: 2rem;
 }
 
 footer .contact-me-container {
