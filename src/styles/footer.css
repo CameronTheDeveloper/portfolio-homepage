@@ -1,0 +1,25 @@
+footer {
+    display: grid;
+    grid-template-rows: 1fr 12fr;
+    padding: 1rem;
+    justify-items: center;
+}
+
+footer .contact-me-container {
+    display: grid;
+    font-size: 1.25rem
+}
+
+footer .contact-me {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+}
+
+footer .contact-me img {
+    width: 1.6rem;
+}
+
+footer .contact-me span {
+    padding-left: 0.3rem;
+}
