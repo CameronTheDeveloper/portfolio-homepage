@@ -1,6 +1,6 @@
 footer {
     display: grid;
-    grid-template-rows: 1fr 12fr;
+    grid-template-rows: 1fr 12fr 1fr;
     padding: 1rem;
     justify-items: center;
 }
@@ -22,4 +22,14 @@ footer .contact-me img {
 
 footer .contact-me span {
     padding-left: 0.3rem;
+}
+
+#back-to-top-button {
+    align-self: end;
+    margin-bottom: 0;
+    padding: 1rem;
+    font-weight: 900;
+    border-radius: 25% 25% 0 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.656);
 }
