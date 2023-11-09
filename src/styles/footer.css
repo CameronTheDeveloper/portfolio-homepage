@@ -26,11 +26,16 @@ footer .contact-me span {
 }
 
 #back-to-top-button {
+    cursor: pointer;
     align-self: end;
     margin-bottom: 0;
-    padding: 1rem;
-    font-weight: 900;
-    border-radius: 25% 25% 0 0;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.656);
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 50% 50% 0 0;
+    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom,
+            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
 }
