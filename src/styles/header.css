@@ -1,12 +1,24 @@
 header {
     display: grid;
-    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 1fr 2fr 8fr 1fr;
     justify-items: center;
 }
 
 .header-title {
     text-align: center;
     padding: 1rem;
+}
+
+header .self-portrait1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+header .self-portrait1-container img {
+    height: auto;
+    max-width: 100%;
 }
 
 .about-me-section {
