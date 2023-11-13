@@ -26,7 +26,17 @@ module.exports = {
                         ]
                     }
                 }
-            }
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/,
+                use: {
+                    loader: 'url-loader',
+                    options: {
+                        limit: 8192,
+                        fallback: 'file-loader',
+                    },
+                },
+            },
         ]
     }
 };
