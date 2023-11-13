@@ -38,9 +38,10 @@ header .self-portrait1-container img {
 }
 
 .about-me-section .image-container img {
-    height: auto;
-    /* max-width: 15rem; */
-    object-fit: contain;
+    object-fit: fill;
+    margin-top: 1rem;
+    border-radius: 5%;
+    border: 4px solid rgb(155, 209, 74)
 }
 
 .hire-me-button {
