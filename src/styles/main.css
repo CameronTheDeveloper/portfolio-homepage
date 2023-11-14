@@ -34,10 +34,17 @@ main .web-app-card .app-title {
 
 main .web-app-card .button-container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 main .web-app-card .button-container button {
-    background-color: rgb(154, 154, 154);
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10%;
+}
+
+main .web-app-card .button-container button img {
+    width: 10rem;
 }
 
 /* Positions */
