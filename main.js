@@ -23,13 +23,26 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `* {
     margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    min-height: 100%;
+    max-width: 100%;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 body {
     display: grid;
-    grid-template-rows: 1fr 10fr 1fr;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,4CAA4C;AAChD;;AAEA;IACI,aAAa;IACb,gCAAgC;AACpC","sourcesContent":["* {\n    margin: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nbody {\n    display: grid;\n    grid-template-rows: 1fr 10fr 1fr;\n}"],"sourceRoot":""}]);
+    grid-template-rows: 2fr 4fr 1fr;
+}
+
+button {
+    cursor: pointer;
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,4CAA4C;AAChD;;AAEA;;IAEI,gBAAgB;IAChB,eAAe;IACf,cAAc;IACd,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nhtml,\nbody {\n    min-height: 100%;\n    max-width: 100%;\n    font-size: 1em;\n    font-weight: 700;\n}\n\nbody {\n    display: grid;\n    grid-template-rows: 2fr 4fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55,7 +68,50 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `footer {
+    display: grid;
+    grid-template-rows: 1fr 12fr 1fr;
+    padding: 1rem 0 0 0;
+}
+
+footer .footer-title {
+    justify-self: center;
+    font-size: 2rem;
+}
+
+footer .contact-me-container {
+    display: grid;
+    font-size: 1.25rem
+}
+
+footer .contact-me {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+footer .contact-me img {
+    width: 1.6rem;
+}
+
+footer .contact-me span {
+    margin-left: 0.3rem;
+}
+
+#back-to-top-button {
+    align-self: end;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 50% 50% 0 0;
+    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom,
+            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,oBAAoB;IACpB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,yBAAyB;IACzB,wBAAwB;AAC5B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,eAAe;IACf,kBAAkB;IAClB,gBAAgB;IAChB,0BAA0B;IAC1B,6CAA6C;IAC7C,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 12fr 1fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-title {\n    justify-self: center;\n    font-size: 2rem;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    font-size: 1.25rem\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n    padding: 0 1rem 1rem 1rem;\n    margin: 0 1rem 1rem 1rem;\n}\n\nfooter .contact-me img {\n    width: 1.6rem;\n}\n\nfooter .contact-me span {\n    margin-left: 0.3rem;\n}\n\n#back-to-top-button {\n    align-self: end;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-size: 1.25rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -81,7 +137,68 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `header {
+    display: grid;
+    grid-template-rows: 1fr 2fr 8fr 1fr;
+    justify-items: center;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+header .self-portrait1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+header .self-portrait1-container img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-me-section {
+    display: grid;
+    grid-template-rows: 1fr 4fr 3fr;
+    background-color: rgb(219, 219, 219);
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.about-me-section .title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-me-section .body {
+    padding: 1rem;
+}
+
+.about-me-section .image-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.about-me-section .image-container img {
+    object-fit: fill;
+    margin-top: 1rem;
+    border-radius: 5%;
+    border: 4px solid rgb(155, 209, 74)
+}
+
+.hire-me-button {
+    padding: 1.25rem;
+    border-radius: 50px;
+    margin: 2rem;
+    font-size: 2em;
+    border: 2px double black;
+}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mCAAmC;IACnC,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,mBAAmB;AACvB;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,qBAAqB;AACzB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,iBAAiB;IACjB;AACJ;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,YAAY;IACZ,cAAc;IACd,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n    grid-template-rows: 1fr 2fr 8fr 1fr;\n    justify-items: center;\n}\n\n.header-title {\n    display: flex;\n    align-items: center;\n    text-align: center;\n    padding: 1rem;\n}\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 1rem;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n.about-me-section {\n    display: grid;\n    grid-template-rows: 1fr 4fr 3fr;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 40px;\n}\n\n.about-me-section .title {\n    text-align: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: grid;\n    justify-content: center;\n    justify-items: center;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 5%;\n    border: 4px solid rgb(155, 209, 74)\n}\n\n.hire-me-button {\n    padding: 1.25rem;\n    border-radius: 50px;\n    margin: 2rem;\n    font-size: 2em;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -107,7 +224,97 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `main {
+    display: grid;
+    grid-template-rows: 1fr 16fr 7fr;
+    padding: 1rem;
+    justify-items: center;
+    background-color: grey;
+}
+
+/* Web Apps */
+main .apps-section {
+    display: grid;
+    justify-items: center;
+}
+
+main .apps-section .apps-container {
+    display: grid;
+}
+
+main .apps-container .web-app-card {
+    display: grid;
+    grid-template-rows: 2fr 5fr 1fr;
+    justify-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+main .web-app-card .app-title {
+    padding: 0.2rem;
+    font-size: 1.5rem;
+}
+
+main .web-app-card .button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .web-app-card .button-container button {
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10%;
+}
+
+main .web-app-card .button-container button img {
+    width: 10rem;
+}
+
+/* Positions */
+
+main .positions-section {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 10fr;
+}
+
+main .positions-section .positions-container {
+    display: grid;
+}
+
+main .positions-container .position {
+    display: grid;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(115, 255, 90);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+main .position .position-title {
+    text-align: center;
+}
+
+main .position .company-name {
+    text-align: center;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+main .position .position-dates {
+    display: grid;
+    grid-template-columns: 8fr 1fr 8fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main .position .position-dates .dash {
+    margin: 0 1rem 0 1rem;
+    font-size: 1rem;
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,aAAa;IACb,qBAAqB;IACrB,sBAAsB;AAC1B;;AAEA,aAAa;AACb;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,qBAAqB;IACrB,8BAA8B;IAC9B,qBAAqB;IACrB,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,eAAe;IACf,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,YAAY;AAChB;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,qBAAqB;IACrB,4BAA4B;AAChC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,qBAAqB;IACrB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,eAAe;AACnB","sourcesContent":["main {\n    display: grid;\n    grid-template-rows: 1fr 16fr 7fr;\n    padding: 1rem;\n    justify-items: center;\n    background-color: grey;\n}\n\n/* Web Apps */\nmain .apps-section {\n    display: grid;\n    justify-items: center;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 2fr 5fr 1fr;\n    justify-items: center;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 1rem 0;\n    padding: 1rem;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 0.2rem;\n    font-size: 1.5rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    width: 20rem;\n    margin: 1rem;\n    border-radius: 10%;\n}\n\nmain .web-app-card .button-container button img {\n    width: 10rem;\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: grid;\n    justify-items: center;\n    grid-template-rows: 1fr 10fr;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position {\n    display: grid;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 8px;\n}\n\nmain .position .position-title {\n    text-align: center;\n}\n\nmain .position .company-name {\n    text-align: center;\n    border-bottom: 1px dotted rgb(0, 0, 0);\n}\n\nmain .position .position-dates {\n    display: grid;\n    grid-template-columns: 8fr 1fr 8fr;\n    justify-items: center;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n    font-size: 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
