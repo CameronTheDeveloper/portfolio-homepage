@@ -25,11 +25,19 @@ header .self-portrait1-container img {
 
 .about-me-section {
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr;
     background-color: rgb(219, 219, 219);
     border: 2px dashed rgb(0, 0, 0);
-    padding: 1rem;
     border-radius: 40px;
+}
+
+.about-me-section .title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-me-section .body {
+    padding: 1rem;
 }
 
 .about-me-section .image-container {
