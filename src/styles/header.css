@@ -43,6 +43,7 @@ header .self-portrait1-container img {
 .about-me-section .image-container {
     display: grid;
     justify-content: center;
+    justify-items: center;
 }
 
 .about-me-section .image-container img {
