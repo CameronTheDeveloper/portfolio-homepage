@@ -28,7 +28,7 @@ header .self-portrait1-container img {
     grid-template-rows: 1fr 4fr 3fr;
     background-color: rgb(219, 219, 219);
     border: 2px dashed rgb(0, 0, 0);
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 .about-me-section .title {
@@ -48,7 +48,7 @@ header .self-portrait1-container img {
 .about-me-section .image-container img {
     object-fit: fill;
     margin-top: 1rem;
-    border-radius: 5%;
+    border-radius: 50px;
     border: 1px solid rgb(74, 209, 83)
 }
 
