@@ -134,7 +134,6 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `header {
     display: grid;
     grid-template-rows: 1fr 2fr 8fr 1fr;
-    justify-items: center;
 }
 
 .header-title {
@@ -146,8 +145,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `header {
 
 header .self-portrait1-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 1rem;
 }
 
@@ -191,7 +188,7 @@ header .self-portrait1-container img {
     margin: 2rem;
     font-size: 2em;
     border: 2px double black;
-}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mCAAmC;IACnC,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,mBAAmB;AACvB;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,YAAY;IACZ,cAAc;IACd,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n    grid-template-rows: 1fr 2fr 8fr 1fr;\n    justify-items: center;\n}\n\n.header-title {\n    display: flex;\n    align-items: center;\n    text-align: center;\n    padding: 1rem;\n}\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 1rem;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n.about-me-section {\n    display: grid;\n    grid-template-rows: 1fr 4fr 3fr;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    text-align: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: flex;\n    flex-direction: column;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 1px solid rgb(74, 209, 83)\n}\n\n.hire-me-button {\n    padding: 1.25rem;\n    border-radius: 50px;\n    margin: 2rem;\n    font-size: 2em;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mCAAmC;AACvC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,YAAY;IACZ,cAAc;IACd,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n    grid-template-rows: 1fr 2fr 8fr 1fr;\n}\n\n.header-title {\n    display: flex;\n    align-items: center;\n    text-align: center;\n    padding: 1rem;\n}\n\nheader .self-portrait1-container {\n    display: flex;\n    margin-bottom: 1rem;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n.about-me-section {\n    display: grid;\n    grid-template-rows: 1fr 4fr 3fr;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    text-align: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: flex;\n    flex-direction: column;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 1px solid rgb(74, 209, 83)\n}\n\n.hire-me-button {\n    padding: 1.25rem;\n    border-radius: 50px;\n    margin: 2rem;\n    font-size: 2em;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
