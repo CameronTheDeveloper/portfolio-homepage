@@ -1,6 +1,6 @@
 footer {
     display: grid;
-    grid-template-rows: 1fr 12fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
     padding: 1rem 0 0 0;
 }
 
@@ -29,11 +29,12 @@ footer .contact-me span {
 
 #back-to-top-button {
     align-self: end;
+    font-size: 3rem;
     margin-bottom: 0;
     padding: 0.5rem;
     font-weight: 700;
     border-radius: 50% 50% 0 0;
-    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);
+    border: 3px 0 0 0 dotted rgb(0, 0, 0);
     color: black;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom,
