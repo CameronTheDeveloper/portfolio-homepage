@@ -1,7 +1,6 @@
 header {
     display: grid;
     grid-template-rows: 1fr 2fr 8fr 1fr;
-    justify-items: center;
 }
 
 .header-title {
@@ -13,8 +12,6 @@ header {
 
 header .self-portrait1-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 1rem;
 }
 
