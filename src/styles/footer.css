@@ -6,12 +6,10 @@ footer {
 
 footer .footer-title {
     justify-self: center;
-    font-size: 2rem;
 }
 
 footer .contact-me-container {
     display: grid;
-    font-size: 1.25rem
 }
 
 footer .contact-me {
@@ -33,7 +31,6 @@ footer .contact-me span {
     align-self: end;
     margin-bottom: 0;
     padding: 0.5rem;
-    font-size: 1.25rem;
     font-weight: 700;
     border-radius: 50% 50% 0 0;
     border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);

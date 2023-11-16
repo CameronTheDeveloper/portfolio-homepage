@@ -30,7 +30,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 body {
     min-height: 100vh;
     max-width: 100%;
-    font-size: 1em;
+    font-size: 3rem;
     font-weight: 700;
     display: grid;
     grid-template-rows: 2fr 4fr 1fr;
@@ -38,7 +38,7 @@ body {
 
 button {
     cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,4CAA4C;AAChD;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,cAAc;IACd,gBAAgB;IAChB,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 1em;\n    font-weight: 700;\n    display: grid;\n    grid-template-rows: 2fr 4fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,4CAA4C;AAChD;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;IAChB,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 3rem;\n    font-weight: 700;\n    display: grid;\n    grid-template-rows: 2fr 4fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -72,12 +72,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `footer {
 
 footer .footer-title {
     justify-self: center;
-    font-size: 2rem;
 }
 
 footer .contact-me-container {
     display: grid;
-    font-size: 1.25rem
 }
 
 footer .contact-me {
@@ -99,7 +97,6 @@ footer .contact-me span {
     align-self: end;
     margin-bottom: 0;
     padding: 0.5rem;
-    font-size: 1.25rem;
     font-weight: 700;
     border-radius: 50% 50% 0 0;
     border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);
@@ -107,7 +104,7 @@ footer .contact-me span {
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom,
             #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,oBAAoB;IACpB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,yBAAyB;IACzB,wBAAwB;AAC5B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,eAAe;IACf,kBAAkB;IAClB,gBAAgB;IAChB,0BAA0B;IAC1B,6CAA6C;IAC7C,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 12fr 1fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-title {\n    justify-self: center;\n    font-size: 2rem;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    font-size: 1.25rem\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n    padding: 0 1rem 1rem 1rem;\n    margin: 0 1rem 1rem 1rem;\n}\n\nfooter .contact-me img {\n    width: 1.6rem;\n}\n\nfooter .contact-me span {\n    margin-left: 0.3rem;\n}\n\n#back-to-top-button {\n    align-self: end;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-size: 1.25rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,yBAAyB;IACzB,wBAAwB;AAC5B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,6CAA6C;IAC7C,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 12fr 1fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-title {\n    justify-self: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n    padding: 0 1rem 1rem 1rem;\n    margin: 0 1rem 1rem 1rem;\n}\n\nfooter .contact-me img {\n    width: 1.6rem;\n}\n\nfooter .contact-me span {\n    margin-left: 0.3rem;\n}\n\n#back-to-top-button {\n    align-self: end;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 2px 0 0 0 dotted rgba(0, 0, 0, 0.767);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -251,7 +248,6 @@ main .apps-container .web-app-card {
 
 main .web-app-card .app-title {
     padding: 0.2rem;
-    font-size: 1.5rem;
 }
 
 main .web-app-card .button-container {
@@ -309,8 +305,7 @@ main .position .position-dates {
 
 main .position .position-dates .dash {
     margin: 0 1rem 0 1rem;
-    font-size: 1rem;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,aAAa;IACb,qBAAqB;IACrB,sBAAsB;AAC1B;;AAEA,aAAa;AACb;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,qBAAqB;IACrB,8BAA8B;IAC9B,qBAAqB;IACrB,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,eAAe;IACf,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,YAAY;AAChB;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,qBAAqB;IACrB,4BAA4B;AAChC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,qBAAqB;IACrB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,eAAe;AACnB","sourcesContent":["main {\n    display: grid;\n    grid-template-rows: 1fr 16fr 7fr;\n    padding: 1rem;\n    justify-items: center;\n    background-color: grey;\n}\n\n/* Web Apps */\nmain .apps-section {\n    display: grid;\n    justify-items: center;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 2fr 5fr 1fr;\n    justify-items: center;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 1rem 0;\n    padding: 1rem;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 0.2rem;\n    font-size: 1.5rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    width: 20rem;\n    margin: 1rem;\n    border-radius: 10%;\n}\n\nmain .web-app-card .button-container button img {\n    width: 10rem;\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: grid;\n    justify-items: center;\n    grid-template-rows: 1fr 10fr;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position {\n    display: grid;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 8px;\n}\n\nmain .position .position-title {\n    text-align: center;\n}\n\nmain .position .company-name {\n    text-align: center;\n    border-bottom: 1px dotted rgb(0, 0, 0);\n}\n\nmain .position .position-dates {\n    display: grid;\n    grid-template-columns: 8fr 1fr 8fr;\n    justify-items: center;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n    font-size: 1rem;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,aAAa;IACb,qBAAqB;IACrB,sBAAsB;AAC1B;;AAEA,aAAa;AACb;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,qBAAqB;IACrB,8BAA8B;IAC9B,qBAAqB;IACrB,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,YAAY;AAChB;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,qBAAqB;IACrB,4BAA4B;AAChC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,qBAAqB;IACrB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;AACzB","sourcesContent":["main {\n    display: grid;\n    grid-template-rows: 1fr 16fr 7fr;\n    padding: 1rem;\n    justify-items: center;\n    background-color: grey;\n}\n\n/* Web Apps */\nmain .apps-section {\n    display: grid;\n    justify-items: center;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 2fr 5fr 1fr;\n    justify-items: center;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 1rem 0;\n    padding: 1rem;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 0.2rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    width: 20rem;\n    margin: 1rem;\n    border-radius: 10%;\n}\n\nmain .web-app-card .button-container button img {\n    width: 10rem;\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: grid;\n    justify-items: center;\n    grid-template-rows: 1fr 10fr;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position {\n    display: grid;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 8px;\n}\n\nmain .position .position-title {\n    text-align: center;\n}\n\nmain .position .company-name {\n    text-align: center;\n    border-bottom: 1px dotted rgb(0, 0, 0);\n}\n\nmain .position .position-dates {\n    display: grid;\n    grid-template-columns: 8fr 1fr 8fr;\n    justify-items: center;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
