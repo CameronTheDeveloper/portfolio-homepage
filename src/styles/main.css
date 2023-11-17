@@ -71,7 +71,8 @@ main .web-app-card .button-container button img {
 main .positions-section {
     display: grid;
     justify-items: center;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 1fr 25fr;
+    margin: 5rem 0 5rem 0;
 }
 
 main .positions-section .positions-container {
