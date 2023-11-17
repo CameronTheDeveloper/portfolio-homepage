@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 16fr 7fr;
+    grid-template-rows: 1fr 15fr 5fr;
     padding: 1rem;
     justify-items: center;
     background-color: grey;
@@ -47,7 +47,7 @@ main .apps-container .web-app-card {
     grid-template-rows: 2fr 3fr 5fr 3fr;
     justify-items: center;
     border: 1px solid rgb(0, 0, 0);
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 7rem 0;
     padding: 1rem;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
@@ -78,7 +78,7 @@ main .positions-section {
     display: grid;
     justify-items: center;
     grid-template-rows: 1fr 25fr;
-    margin: 5rem 0 5rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 main .positions-section .positions-container {
@@ -87,10 +87,11 @@ main .positions-section .positions-container {
 
 main .positions-container .position {
     display: grid;
+    grid-template-rows: repeat(3, 2fr) 5fr;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem 0 7rem 0;
     border-radius: 8px;
 }
 
