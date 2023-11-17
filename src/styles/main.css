@@ -14,12 +14,13 @@ main .main-header {
 
 main .main-header .link-icons-container {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 main .link-icons-container button {
-    width: 15rem;
+    width: 10rem;
     margin: 1rem;
     background-color: transparent;
     border: none;
