@@ -17,6 +17,7 @@ header .self-portrait1-container {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 header .self-portrait1-container img {
