@@ -227,7 +227,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `main {
     display: grid;
-    grid-template-rows: 1fr 16fr 7fr;
+    grid-template-rows: 1fr 15fr 5fr;
     padding: 1rem;
     justify-items: center;
     background-color: grey;
@@ -274,7 +274,7 @@ main .apps-container .web-app-card {
     grid-template-rows: 2fr 3fr 5fr 3fr;
     justify-items: center;
     border: 1px solid rgb(0, 0, 0);
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 7rem 0;
     padding: 1rem;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
@@ -305,7 +305,7 @@ main .positions-section {
     display: grid;
     justify-items: center;
     grid-template-rows: 1fr 25fr;
-    margin: 5rem 0 5rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 main .positions-section .positions-container {
@@ -314,10 +314,11 @@ main .positions-section .positions-container {
 
 main .positions-container .position {
     display: grid;
+    grid-template-rows: repeat(3, 2fr) 5fr;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem 0 7rem 0;
     border-radius: 8px;
 }
 
@@ -340,7 +341,7 @@ main .position .position-dates {
 
 main .position .position-dates .dash {
     margin: 0 1rem 0 1rem;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,aAAa;IACb,qBAAqB;IACrB,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;AACzB;;AAEA,eAAe;;AAEf;IACI,aAAa;IACb,qBAAqB;IACrB,8BAA8B;IAC9B,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,yCAAyC;AAC7C;;AAEA,aAAa;AACb;IACI,aAAa;IACb,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mCAAmC;IACnC,qBAAqB;IACrB,8BAA8B;IAC9B,qBAAqB;IACrB,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,YAAY;AAChB;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,qBAAqB;IACrB,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,qBAAqB;IACrB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;AACzB","sourcesContent":["main {\n    display: grid;\n    grid-template-rows: 1fr 16fr 7fr;\n    padding: 1rem;\n    justify-items: center;\n    background-color: grey;\n}\n\nmain .main-header {\n    margin: 1rem 0 7rem 0;\n}\n\n/* link icons */\n\nmain .main-header .link-icons-container {\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 1fr 1fr;\n    padding: 1.5rem;\n}\n\nmain .link-icons-container button {\n    width: 10rem;\n    margin: 1rem;\n    background-color: transparent;\n    border: none;\n    border-radius: 15%;\n}\n\nmain .link-icons-container button:hover {\n    background-color: rgba(30, 30, 30, 0.486);\n}\n\n/* Web Apps */\nmain .apps-section {\n    display: grid;\n    grid-template-rows: 1fr 50fr;\n    justify-items: center;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 2fr 3fr 5fr 3fr;\n    justify-items: center;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 1rem 0;\n    padding: 1rem;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 0.2rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    width: 20rem;\n    margin: 1rem;\n    border-radius: 10%;\n}\n\nmain .web-app-card .button-container button img {\n    width: 10rem;\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: grid;\n    justify-items: center;\n    grid-template-rows: 1fr 25fr;\n    margin: 5rem 0 5rem 0;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position {\n    display: grid;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 8px;\n}\n\nmain .position .position-title {\n    text-align: center;\n}\n\nmain .position .company-name {\n    text-align: center;\n    border-bottom: 1px dotted rgb(0, 0, 0);\n}\n\nmain .position .position-dates {\n    display: grid;\n    grid-template-columns: 8fr 1fr 8fr;\n    justify-items: center;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,aAAa;IACb,qBAAqB;IACrB,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;AACzB;;AAEA,eAAe;;AAEf;IACI,aAAa;IACb,qBAAqB;IACrB,8BAA8B;IAC9B,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,yCAAyC;AAC7C;;AAEA,aAAa;AACb;IACI,aAAa;IACb,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mCAAmC;IACnC,qBAAqB;IACrB,8BAA8B;IAC9B,qBAAqB;IACrB,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,YAAY;AAChB;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,qBAAqB;IACrB,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sCAAsC;IACtC,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,qBAAqB;IACrB,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,qBAAqB;IACrB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;AACzB","sourcesContent":["main {\n    display: grid;\n    grid-template-rows: 1fr 15fr 5fr;\n    padding: 1rem;\n    justify-items: center;\n    background-color: grey;\n}\n\nmain .main-header {\n    margin: 1rem 0 7rem 0;\n}\n\n/* link icons */\n\nmain .main-header .link-icons-container {\n    display: grid;\n    justify-items: center;\n    grid-template-columns: 1fr 1fr;\n    padding: 1.5rem;\n}\n\nmain .link-icons-container button {\n    width: 10rem;\n    margin: 1rem;\n    background-color: transparent;\n    border: none;\n    border-radius: 15%;\n}\n\nmain .link-icons-container button:hover {\n    background-color: rgba(30, 30, 30, 0.486);\n}\n\n/* Web Apps */\nmain .apps-section {\n    display: grid;\n    grid-template-rows: 1fr 50fr;\n    justify-items: center;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 2fr 3fr 5fr 3fr;\n    justify-items: center;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 7rem 0;\n    padding: 1rem;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 0.2rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    width: 20rem;\n    margin: 1rem;\n    border-radius: 10%;\n}\n\nmain .web-app-card .button-container button img {\n    width: 10rem;\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: grid;\n    justify-items: center;\n    grid-template-rows: 1fr 25fr;\n    margin: 3rem 0 1rem 0;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position {\n    display: grid;\n    grid-template-rows: repeat(3, 2fr) 5fr;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 1rem;\n    margin: 1rem 0 7rem 0;\n    border-radius: 8px;\n}\n\nmain .position .position-title {\n    text-align: center;\n}\n\nmain .position .company-name {\n    text-align: center;\n    border-bottom: 1px dotted rgb(0, 0, 0);\n}\n\nmain .position .position-dates {\n    display: grid;\n    grid-template-columns: 8fr 1fr 8fr;\n    justify-items: center;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
