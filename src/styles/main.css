@@ -1,9 +1,29 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 16fr 7fr;
+    grid-template-rows: 1fr 1fr 16fr 7fr;
     padding: 1rem;
     justify-items: center;
     background-color: grey;
+}
+
+/* link icons */
+
+main .experience-links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}
+
+main .link-icons-container button {
+    width: 15rem;
+    margin: 1rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 15%;
+}
+
+main .link-icons-container button:hover {
+    background-color: rgba(30, 30, 30, 0.486);
 }
 
 /* Web Apps */
