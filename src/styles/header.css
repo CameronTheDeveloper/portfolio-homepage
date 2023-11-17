@@ -11,6 +11,8 @@ header {
     padding: 1rem;
 }
 
+/* self-portrait1 */
+
 header .self-portrait1-container {
     display: flex;
     justify-content: center;
@@ -21,6 +23,8 @@ header .self-portrait1-container img {
     height: auto;
     max-width: 100%;
 }
+
+/* about-me-section */
 
 .about-me-section {
     display: grid;
@@ -52,6 +56,8 @@ header .self-portrait1-container img {
     border-radius: 50px;
     border: 1px solid rgb(74, 209, 83)
 }
+
+/* hire-me-button */
 
 .hire-me-button {
     padding: 1.25rem;
