@@ -19,7 +19,7 @@ main .main-header .link-icons-container {
     padding: 1.5rem;
 }
 
-main .link-icons-container button {
+main .link-icons-container a {
     width: 10rem;
     margin: 1rem;
     background-color: transparent;
@@ -27,7 +27,7 @@ main .link-icons-container button {
     border-radius: 15%;
 }
 
-main .link-icons-container button:hover {
+main .link-icons-container a:hover {
     background-color: rgba(30, 30, 30, 0.486);
 }
 
