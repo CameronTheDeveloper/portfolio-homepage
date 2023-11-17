@@ -18,7 +18,7 @@ main .apps-section .apps-container {
 
 main .apps-container .web-app-card {
     display: grid;
-    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-rows: 2fr 3fr 5fr 3fr;
     justify-items: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem 0 1rem 0;
