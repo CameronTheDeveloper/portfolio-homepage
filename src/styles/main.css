@@ -6,6 +6,10 @@ main {
     background-color: grey;
 }
 
+main .main-header {
+    margin: 1rem 0 7rem 0;
+}
+
 /* link icons */
 
 main .main-header .link-icons-container {
@@ -29,6 +33,7 @@ main .link-icons-container button:hover {
 /* Web Apps */
 main .apps-section {
     display: grid;
+    grid-template-rows: 1fr 50fr;
     justify-items: center;
 }
 
