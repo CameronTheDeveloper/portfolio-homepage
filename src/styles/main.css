@@ -25,10 +25,15 @@ main .link-icons-container a {
     background-color: transparent;
     border: none;
     border-radius: 15%;
+    text-decoration: none;
 }
 
 main .link-icons-container a:hover {
     background-color: rgba(5, 5, 5, 0.267);
+}
+
+main .link-icons-container a .new-tab-indicator {
+    font-size: 2rem;
 }
 
 /* Web Apps */
