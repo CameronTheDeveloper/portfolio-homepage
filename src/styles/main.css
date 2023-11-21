@@ -104,6 +104,8 @@ main .positions-container .position {
 
 main .position .position-headlines {
     display: grid;
+    justify-items: center;
+    align-items: center;
     grid-template-rows: repeat(4, 1fr);
     margin-bottom: 1rem;
 }
