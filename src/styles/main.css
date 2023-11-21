@@ -95,7 +95,7 @@ main .positions-section .positions-container {
 main .positions-container .position {
     display: grid;
     align-items: center;
-    grid-template-rows: repeat(4, 2fr) 5fr;
+    grid-template-rows: repeat(4, 1fr) 5fr;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 1rem;
