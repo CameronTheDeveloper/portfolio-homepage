@@ -113,10 +113,21 @@ main .position .company-name {
 
 main .position .position-dates {
     display: grid;
-    grid-template-columns: 8fr 1fr 8fr;
-    justify-items: center;
+    grid-template-columns: 2fr 1fr 2fr;
     justify-content: center;
     align-items: center;
+}
+
+main .position .position-dates .start-date {
+    justify-self: end;
+}
+
+main .position .position-dates .dash {
+    justify-self: center;
+}
+
+main .position .position-dates .end-date {
+    justify-self: start;
 }
 
 main .position .position-dates .dash {
