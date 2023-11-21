@@ -94,13 +94,17 @@ main .positions-section .positions-container {
 
 main .positions-container .position {
     display: grid;
-    align-items: center;
     grid-template-rows: 4fr 5fr;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 1rem;
     margin: 1rem 0 7rem 0;
     border-radius: 8px;
+}
+
+main .position .position-headlines {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 main .position .position-title {
