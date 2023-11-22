@@ -23,7 +23,6 @@ main .main-header .link-icons-container {
 }
 
 main .link-icons-container a {
-    width: 12rem;
     margin: 1rem;
     background-color: transparent;
     border: none;
@@ -67,13 +66,12 @@ main .web-app-card .button-container {
 }
 
 main .web-app-card .button-container button {
-    width: 20rem;
     margin: 1rem;
     border-radius: 10%;
 }
 
 main .web-app-card .button-container button img {
-    width: 10rem;
+    width: 2rem;
 }
 
 /* Positions */
