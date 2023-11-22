@@ -33,12 +33,12 @@ body {
     font-size: 3rem;
     font-weight: 700;
     display: grid;
-    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-rows: 3fr 8fr 1fr;
 }
 
 button {
     cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,4CAA4C;AAChD;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;IAChB,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 3rem;\n    font-weight: 700;\n    display: grid;\n    grid-template-rows: 2fr 5fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,4CAA4C;AAChD;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;IAChB,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Times New Roman', Times, serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 3rem;\n    font-weight: 700;\n    display: grid;\n    grid-template-rows: 3fr 8fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
