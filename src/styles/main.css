@@ -2,6 +2,7 @@ main {
     display: grid;
     grid-template-rows: 1fr 15fr 5fr;
     padding: 1rem;
+    justify-content: center;
     justify-items: center;
     background-color: grey;
 }
