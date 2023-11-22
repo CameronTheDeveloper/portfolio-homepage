@@ -10,7 +10,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     display: grid;
-    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-rows: 3fr 8fr 1fr;
 }
 
 button {
