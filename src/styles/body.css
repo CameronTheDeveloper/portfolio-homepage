@@ -7,7 +7,7 @@
 body {
     min-height: 100vh;
     max-width: 100%;
-    font-size: 3rem;
+    font-size: 100%;
     font-weight: 700;
     display: grid;
     grid-template-rows: 3fr 8fr 1fr;
