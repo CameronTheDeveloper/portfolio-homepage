@@ -34,10 +34,6 @@ main .link-icons-container a:hover {
     background-color: rgba(5, 5, 5, 0.267);
 }
 
-main .link-icons-container a .new-tab-indicator {
-    font-size: 2rem;
-}
-
 /* Web Apps */
 main .apps-section {
     display: grid;
