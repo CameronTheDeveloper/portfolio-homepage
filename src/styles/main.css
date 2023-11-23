@@ -36,6 +36,7 @@ main .link-icons-container a:hover {
 }
 
 /* Web Apps */
+
 main .apps-section {
     display: grid;
     grid-template-rows: 1fr 50fr;
@@ -49,7 +50,6 @@ main .apps-section .apps-container {
 main .apps-container .web-app-card {
     display: grid;
     grid-template-rows: 2fr 3fr 5fr 3fr;
-    justify-items: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem 0 7rem 0;
     padding: 1rem;
@@ -58,7 +58,12 @@ main .apps-container .web-app-card {
 }
 
 main .web-app-card .app-title {
+    text-align: center;
     padding: 0.2rem;
+}
+
+main .web-app-card .app-picture-container {
+    justify-self: center;
 }
 
 main .web-app-card .button-container {
@@ -69,10 +74,11 @@ main .web-app-card .button-container {
 main .web-app-card .button-container button {
     margin: 1rem;
     border-radius: 10%;
+    background-color: transparent;
 }
 
-main .web-app-card .button-container button img {
-    width: 2rem;
+main .web-app-card .button-container button:hover {
+    background-color: rgba(5, 5, 5, 0.267);
 }
 
 /* Positions */
