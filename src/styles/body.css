@@ -13,6 +13,7 @@ body {
 
 #container {
     display: grid;
+    justify-content: center;
     grid-template-rows: 3fr 8fr 1fr;
 }
 
