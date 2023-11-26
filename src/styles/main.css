@@ -52,18 +52,21 @@ main .apps-container .web-app-card {
     grid-template-rows: 2fr 3fr 5fr 3fr;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem 0 7rem 0;
-    padding: 1rem;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
 }
 
 main .web-app-card .app-title {
     text-align: center;
-    padding: 0.2rem;
+    padding: 1rem;
 }
 
 main .web-app-card .app-picture-container {
     justify-self: center;
+}
+
+main .web-app-card .app-desc {
+    padding: 1rem;
 }
 
 main .web-app-card .button-container {
