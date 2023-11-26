@@ -76,7 +76,18 @@ main .web-app-card .button-container {
 
 main .web-app-card .button-container button {
     background-color: transparent;
-    border: 1px solid black
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+main .web-app-card .button-container button.open-github {
+    border-right: none;
+    border-bottom-right-radius: 16px
+}
+
+main .web-app-card .button-container button.open-app {
+    border-left: none;
+    border-bottom-left-radius: 16px
 }
 
 main .web-app-card .button-container button:hover {
