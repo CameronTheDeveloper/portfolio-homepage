@@ -75,9 +75,8 @@ main .web-app-card .button-container {
 }
 
 main .web-app-card .button-container button {
-    margin: 1rem;
-    border-radius: 10%;
     background-color: transparent;
+    border: 1px solid black
 }
 
 main .web-app-card .button-container button:hover {
