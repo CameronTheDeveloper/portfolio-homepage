@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 15fr 5fr;
+    grid-template-rows: 1fr 17fr 5fr;
     padding: 1rem;
     justify-content: center;
     justify-items: center;
@@ -8,7 +8,7 @@ main {
 }
 
 main .main-header {
-    margin: 1rem 0 7rem 0;
+    margin: 1rem 0 3rem 0;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ main .apps-container .web-app-card {
     display: grid;
     grid-template-rows: 1fr 3fr 3fr 3fr;
     border: 1px solid rgb(0, 0, 0);
-    margin: 1rem 0 7rem 0;
+    margin: 1rem 0 4rem 0;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
 }
@@ -113,7 +113,7 @@ main .positions-container .position {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 2rem;
-    margin: 1rem 0 7rem 0;
+    margin: 1rem 0 4rem 0;
     border-radius: 8px;
 }
 
