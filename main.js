@@ -53,12 +53,12 @@ button {
 #container {
     display: grid;
     justify-content: center;
-    grid-template-rows: 3fr 8fr 1fr;
+    grid-template-rows: 6fr 16fr 1fr;
 }
 
 button {
     cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,+BAA+B;AACnC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2rem;\n}\n\nh2 {\n    font-size: 1.7rem;\n}\n\nh3 {\n    font-size: 1.4rem;\n}\n\nbutton {\n    font-size: 1rem;\n}\n\n#container {\n    display: grid;\n    justify-content: center;\n    grid-template-rows: 3fr 8fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,gCAAgC;AACpC;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2rem;\n}\n\nh2 {\n    font-size: 1.7rem;\n}\n\nh3 {\n    font-size: 1.4rem;\n}\n\nbutton {\n    font-size: 1rem;\n}\n\n#container {\n    display: grid;\n    justify-content: center;\n    grid-template-rows: 6fr 16fr 1fr;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -86,7 +86,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     display: grid;
-    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-rows: 3fr 15fr 5fr;
     padding: 1rem 0 0 0;
 }
 
@@ -122,7 +122,7 @@ footer .contact-me span {
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom,
             #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 10fr 1fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-title {\n    text-align: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n#back-to-top-button {\n    align-self: end;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 3fr 15fr 5fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-title {\n    text-align: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n#back-to-top-button {\n    align-self: end;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
