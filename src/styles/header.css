@@ -1,6 +1,6 @@
 header {
     display: grid;
-    grid-template-rows: 1fr 2fr 8fr 1fr;
+    grid-template-rows: 1fr 2fr 6fr 1fr;
 }
 
 .header-top {
@@ -29,7 +29,7 @@ header .self-portrait1-container img {
 
 .about-me-section {
     display: grid;
-    grid-template-rows: 1fr 7fr 11fr;
+    grid-template-rows: 1fr 3fr 7fr;
     background-color: rgb(219, 219, 219);
     border: 2px dashed rgb(0, 0, 0);
     border-radius: 50px;

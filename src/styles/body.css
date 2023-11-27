@@ -30,7 +30,7 @@ button {
 #container {
     display: grid;
     justify-content: center;
-    grid-template-rows: 6fr 16fr 1fr;
+    grid-template-rows: 5fr 16fr 1fr;
 }
 
 button {
