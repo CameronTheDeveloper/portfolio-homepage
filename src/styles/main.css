@@ -106,7 +106,7 @@ main .positions-section .positions-container {
     display: grid;
 }
 
-main .positions-container .position {
+main .positions-container .position-card {
     display: grid;
     grid-template-rows: 7fr 6fr;
     border: 1px solid rgb(0, 0, 0);
@@ -116,7 +116,7 @@ main .positions-container .position {
     border-radius: 8px;
 }
 
-main .position .position-headlines {
+main .position-card .position-headlines {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -124,37 +124,37 @@ main .position .position-headlines {
     margin-bottom: 1rem;
 }
 
-main .position .position-title {
+main .position-card .position-title {
     text-align: center;
 }
 
-main .position .company-name {
+main .position-card .company-name {
     text-align: center;
 }
 
-main .position .position-dates {
+main .position-card .position-dates {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     justify-content: center;
     align-items: center;
 }
 
-main .position .position-dates .start-date {
+main .position-card .position-dates .start-date {
     justify-self: end;
 }
 
-main .position .position-dates .dash {
+main .position-card .position-dates .dash {
     justify-self: center;
 }
 
-main .position .position-dates .end-date {
+main .position-card .position-dates .end-date {
     justify-self: start;
 }
 
-main .position .position-dates .dash {
+main .position-card .position-dates .dash {
     margin: 0 1rem 0 1rem;
 }
 
-main .position .position-desc {
+main .position-card .position-desc {
     align-self: center;
 }
