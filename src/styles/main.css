@@ -7,14 +7,14 @@ main {
     background-color: grey;
 }
 
-main .main-header {
+main .main-top {
     margin: 1rem 0 2rem 0;
     text-align: center;
 }
 
 /* link icons */
 
-main .main-header .link-icons-container {
+main .main-top .link-icons-container {
     display: grid;
     justify-content: space-between;
     text-align: center;

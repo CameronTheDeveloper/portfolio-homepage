@@ -3,7 +3,7 @@ header {
     grid-template-rows: 1fr 2fr 8fr 1fr;
 }
 
-.header-title {
+.header-top {
     display: flex;
     align-items: center;
     justify-content: center;
