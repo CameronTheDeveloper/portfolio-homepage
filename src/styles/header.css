@@ -58,11 +58,17 @@ header .self-portrait1-container img {
     border: 1px solid rgb(74, 209, 83)
 }
 
-/* hire-me-button */
+/* header-bottom */
 
-.hire-me-button {
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.header-bottom .hire-me-button {
     padding: 1.25rem;
     border-radius: 50px;
-    margin: 4rem;
     border: 2px double black;
 }
