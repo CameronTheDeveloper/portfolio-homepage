@@ -28,9 +28,8 @@ button {
 }
 
 #container {
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 5fr 16fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
