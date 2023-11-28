@@ -6,7 +6,7 @@ main {
 }
 
 main .main-top {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 /* link icons */
@@ -16,7 +16,7 @@ main .main-top .link-icons-container {
     justify-content: space-between;
     text-align: center;
     grid-template-columns: 1fr 1fr;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 main .link-icons-container a {
@@ -50,7 +50,7 @@ main .apps-container .web-app-card {
     display: grid;
     grid-template-rows: 1fr 3fr 3fr 3fr;
     border: 1px solid rgb(0, 0, 0);
-    margin: 1rem 0 4rem 0;
+    margin: 1rem 0 3rem 0;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
 }
@@ -97,7 +97,7 @@ main .web-app-card .button-container button:hover {
 main .positions-section {
     display: flex;
     flex-direction: column;
-    margin: 3rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 main .positions-section .positions-section-header {
@@ -114,7 +114,7 @@ main .positions-container .position-card {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
     padding: 2rem;
-    margin: 1rem 0 4rem 0;
+    margin: 1rem 0 3rem 0;
     border-radius: 8px;
 }
 
