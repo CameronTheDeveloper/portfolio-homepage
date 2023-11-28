@@ -7,7 +7,6 @@ main {
 
 main .main-top {
     margin: 1rem 0 2rem 0;
-    text-align: center;
 }
 
 /* link icons */
@@ -57,7 +56,6 @@ main .apps-container .web-app-card {
 }
 
 main .web-app-card .app-title {
-    text-align: center;
     padding: 1rem;
 }
 
@@ -126,14 +124,6 @@ main .position-card .position-headlines {
     align-items: center;
     grid-template-rows: repeat(4, 1fr);
     margin-bottom: 1rem;
-}
-
-main .position-card .position-title {
-    text-align: center;
-}
-
-main .position-card .company-name {
-    text-align: center;
 }
 
 main .position-card .position-dates {

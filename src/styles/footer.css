@@ -4,10 +4,6 @@ footer {
     padding: 1rem 0 0 0;
 }
 
-footer .footer-top {
-    text-align: center;
-}
-
 footer .contact-me-container {
     display: grid;
     padding: 1rem;

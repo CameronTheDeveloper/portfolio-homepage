@@ -46,6 +46,15 @@ h3 {
     font-size: 1.5rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
 button {
     font-size: 1rem;
 }
@@ -57,7 +66,7 @@ button {
 
 button {
     cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2rem;\n}\n\nh2 {\n    font-size: 1.75rem;\n}\n\nh3 {\n    font-size: 1.5rem;\n}\n\nbutton {\n    font-size: 1rem;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;;;;;;IAMI,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2rem;\n}\n\nh2 {\n    font-size: 1.75rem;\n}\n\nh3 {\n    font-size: 1.5rem;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    text-align: center;\n}\n\nbutton {\n    font-size: 1rem;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -87,10 +96,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     display: grid;
     grid-template-rows: 1fr 8fr 2fr;
     padding: 1rem 0 0 0;
-}
-
-footer .footer-top {
-    text-align: center;
 }
 
 footer .contact-me-container {
@@ -127,7 +132,7 @@ footer .contact-me span {
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom,
             #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,gBAAgB;AACpB;;AAEA;IACI,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 8fr 2fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-top {\n    text-align: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n}\n\n#back-to-top-button {\n    flex: 1;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,gBAAgB;AACpB;;AAEA;IACI,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 8fr 2fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n}\n\n#back-to-top-button {\n    flex: 1;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -191,7 +196,6 @@ header .self-portrait1-container img {
 }
 
 .about-me-section .title {
-    text-align: center;
     place-self: center;
     padding: 1rem;
 }
@@ -226,7 +230,7 @@ header .self-portrait1-container img {
     padding: 1.25rem;
     border-radius: 50px;
     border: 2px double black;
-}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mCAAmC;AACvC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;IAClB,aAAa;AACjB;;AAEA,mBAAmB;;AAEnB;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA,qBAAqB;;AAErB;IACI,aAAa;IACb,+BAA+B;IAC/B,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,oBAAoB;AACxB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA,kBAAkB;;AAElB;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,4BAA4B;AAChC;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n    grid-template-rows: 1fr 2fr 6fr 1fr;\n}\n\n.header-top {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    padding: 1rem;\n}\n\n/* self-portrait1 */\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 1rem;\n    padding: 1rem 0 1rem 0;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n/* about-me-section */\n\n.about-me-section {\n    display: grid;\n    grid-template-rows: 1fr 3fr 7fr;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    text-align: center;\n    place-self: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: end;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 1px solid rgb(74, 209, 83)\n}\n\n/* header-bottom */\n\n.header-bottom {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: 1rem 3rem 1rem 3rem;\n}\n\n.header-bottom .hire-me-button {\n    padding: 1.25rem;\n    border-radius: 50px;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mCAAmC;AACvC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;IAClB,aAAa;AACjB;;AAEA,mBAAmB;;AAEnB;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA,qBAAqB;;AAErB;IACI,aAAa;IACb,+BAA+B;IAC/B,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,oBAAoB;AACxB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA,kBAAkB;;AAElB;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,4BAA4B;AAChC;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n    grid-template-rows: 1fr 2fr 6fr 1fr;\n}\n\n.header-top {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    padding: 1rem;\n}\n\n/* self-portrait1 */\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 1rem;\n    padding: 1rem 0 1rem 0;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n/* about-me-section */\n\n.about-me-section {\n    display: grid;\n    grid-template-rows: 1fr 3fr 7fr;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    place-self: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: end;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 1px solid rgb(74, 209, 83)\n}\n\n/* header-bottom */\n\n.header-bottom {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: 1rem 3rem 1rem 3rem;\n}\n\n.header-bottom .hire-me-button {\n    padding: 1.25rem;\n    border-radius: 50px;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -261,7 +265,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
 
 main .main-top {
     margin: 1rem 0 2rem 0;
-    text-align: center;
 }
 
 /* link icons */
@@ -311,7 +314,6 @@ main .apps-container .web-app-card {
 }
 
 main .web-app-card .app-title {
-    text-align: center;
     padding: 1rem;
 }
 
@@ -382,14 +384,6 @@ main .position-card .position-headlines {
     margin-bottom: 1rem;
 }
 
-main .position-card .position-title {
-    text-align: center;
-}
-
-main .position-card .company-name {
-    text-align: center;
-}
-
 main .position-card .position-dates {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -415,7 +409,7 @@ main .position-card .position-dates .dash {
 
 main .position-card .position-desc {
     align-self: center;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;IACrB,kBAAkB;AACtB;;AAEA,eAAe;;AAEf;IACI,aAAa;IACb,8BAA8B;IAC9B,kBAAkB;IAClB,8BAA8B;IAC9B,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;IAClB,qBAAqB;AACzB;;AAEA;IACI,sCAAsC;AAC1C;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mCAAmC;IACnC,8BAA8B;IAC9B,qBAAqB;IACrB,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,6BAA6B;IAC7B,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB;AACJ;;AAEA;IACI,iBAAiB;IACjB;AACJ;;AAEA;IACI,sCAAsC;AAC1C;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,sBAAsB;IACtB,qBAAqB;AACzB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,2BAA2B;IAC3B,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,qBAAqB;IACrB,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,qBAAqB;IACrB,mBAAmB;IACnB,kCAAkC;IAClC,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;AACzB;;AAEA;IACI,kBAAkB;AACtB","sourcesContent":["main {\n    display: flex;\n    flex-direction: column;\n    padding: 1rem;\n    background-color: grey;\n}\n\nmain .main-top {\n    margin: 1rem 0 2rem 0;\n    text-align: center;\n}\n\n/* link icons */\n\nmain .main-top .link-icons-container {\n    display: grid;\n    justify-content: space-between;\n    text-align: center;\n    grid-template-columns: 1fr 1fr;\n    padding: 1.5rem;\n}\n\nmain .link-icons-container a {\n    margin: 1rem;\n    background-color: transparent;\n    border: none;\n    border-radius: 15%;\n    text-decoration: none;\n}\n\nmain .link-icons-container a:hover {\n    background-color: rgba(5, 5, 5, 0.267);\n}\n\n/* Web Apps */\n\nmain .apps-section {\n    display: flex;\n    flex-direction: column;\n}\n\nmain .apps-section .apps-section-header {\n    margin: 1rem;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 1fr 3fr 3fr 3fr;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 4rem 0;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    text-align: center;\n    padding: 1rem;\n}\n\nmain .web-app-card .app-picture-container {\n    justify-self: center;\n}\n\nmain .web-app-card .app-desc {\n    padding: 1rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    background-color: transparent;\n    border: 1px solid black;\n    border-bottom: none;\n}\n\nmain .web-app-card .button-container button.open-github {\n    border-right: none;\n    border-bottom-right-radius: 16px\n}\n\nmain .web-app-card .button-container button.open-app {\n    border-left: none;\n    border-bottom-left-radius: 16px\n}\n\nmain .web-app-card .button-container button:hover {\n    background-color: rgba(5, 5, 5, 0.267);\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: flex;\n    flex-direction: column;\n    margin: 3rem 0 1rem 0;\n}\n\nmain .positions-section .positions-section-header {\n    margin: 1rem;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position-card {\n    display: grid;\n    grid-template-rows: 7fr 6fr;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 2rem;\n    margin: 1rem 0 4rem 0;\n    border-radius: 8px;\n}\n\nmain .position-card .position-headlines {\n    display: grid;\n    justify-items: center;\n    align-items: center;\n    grid-template-rows: repeat(4, 1fr);\n    margin-bottom: 1rem;\n}\n\nmain .position-card .position-title {\n    text-align: center;\n}\n\nmain .position-card .company-name {\n    text-align: center;\n}\n\nmain .position-card .position-dates {\n    display: grid;\n    grid-template-columns: 2fr 1fr 2fr;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position-card .position-dates .start-date {\n    justify-self: end;\n}\n\nmain .position-card .position-dates .dash {\n    justify-self: center;\n}\n\nmain .position-card .position-dates .end-date {\n    justify-self: start;\n}\n\nmain .position-card .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n}\n\nmain .position-card .position-desc {\n    align-self: center;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;AACzB;;AAEA,eAAe;;AAEf;IACI,aAAa;IACb,8BAA8B;IAC9B,kBAAkB;IAClB,8BAA8B;IAC9B,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;IAClB,qBAAqB;AACzB;;AAEA;IACI,sCAAsC;AAC1C;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mCAAmC;IACnC,8BAA8B;IAC9B,qBAAqB;IACrB,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,6BAA6B;IAC7B,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB;AACJ;;AAEA;IACI,iBAAiB;IACjB;AACJ;;AAEA;IACI,sCAAsC;AAC1C;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,sBAAsB;IACtB,qBAAqB;AACzB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,2BAA2B;IAC3B,8BAA8B;IAC9B,mCAAmC;IACnC,aAAa;IACb,qBAAqB;IACrB,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,qBAAqB;IACrB,mBAAmB;IACnB,kCAAkC;IAClC,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,kCAAkC;IAClC,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;AACzB;;AAEA;IACI,kBAAkB;AACtB","sourcesContent":["main {\n    display: flex;\n    flex-direction: column;\n    padding: 1rem;\n    background-color: grey;\n}\n\nmain .main-top {\n    margin: 1rem 0 2rem 0;\n}\n\n/* link icons */\n\nmain .main-top .link-icons-container {\n    display: grid;\n    justify-content: space-between;\n    text-align: center;\n    grid-template-columns: 1fr 1fr;\n    padding: 1.5rem;\n}\n\nmain .link-icons-container a {\n    margin: 1rem;\n    background-color: transparent;\n    border: none;\n    border-radius: 15%;\n    text-decoration: none;\n}\n\nmain .link-icons-container a:hover {\n    background-color: rgba(5, 5, 5, 0.267);\n}\n\n/* Web Apps */\n\nmain .apps-section {\n    display: flex;\n    flex-direction: column;\n}\n\nmain .apps-section .apps-section-header {\n    margin: 1rem;\n}\n\nmain .apps-section .apps-container {\n    display: grid;\n}\n\nmain .apps-container .web-app-card {\n    display: grid;\n    grid-template-rows: 1fr 3fr 3fr 3fr;\n    border: 1px solid rgb(0, 0, 0);\n    margin: 1rem 0 4rem 0;\n    border-radius: 16px;\n    background-color: rgb(255, 255, 255);\n}\n\nmain .web-app-card .app-title {\n    padding: 1rem;\n}\n\nmain .web-app-card .app-picture-container {\n    justify-self: center;\n}\n\nmain .web-app-card .app-desc {\n    padding: 1rem;\n}\n\nmain .web-app-card .button-container {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n}\n\nmain .web-app-card .button-container button {\n    background-color: transparent;\n    border: 1px solid black;\n    border-bottom: none;\n}\n\nmain .web-app-card .button-container button.open-github {\n    border-right: none;\n    border-bottom-right-radius: 16px\n}\n\nmain .web-app-card .button-container button.open-app {\n    border-left: none;\n    border-bottom-left-radius: 16px\n}\n\nmain .web-app-card .button-container button:hover {\n    background-color: rgba(5, 5, 5, 0.267);\n}\n\n/* Positions */\n\nmain .positions-section {\n    display: flex;\n    flex-direction: column;\n    margin: 3rem 0 1rem 0;\n}\n\nmain .positions-section .positions-section-header {\n    margin: 1rem;\n}\n\nmain .positions-section .positions-container {\n    display: grid;\n}\n\nmain .positions-container .position-card {\n    display: grid;\n    grid-template-rows: 7fr 6fr;\n    border: 1px solid rgb(0, 0, 0);\n    background-color: rgb(115, 255, 90);\n    padding: 2rem;\n    margin: 1rem 0 4rem 0;\n    border-radius: 8px;\n}\n\nmain .position-card .position-headlines {\n    display: grid;\n    justify-items: center;\n    align-items: center;\n    grid-template-rows: repeat(4, 1fr);\n    margin-bottom: 1rem;\n}\n\nmain .position-card .position-dates {\n    display: grid;\n    grid-template-columns: 2fr 1fr 2fr;\n    justify-content: center;\n    align-items: center;\n}\n\nmain .position-card .position-dates .start-date {\n    justify-self: end;\n}\n\nmain .position-card .position-dates .dash {\n    justify-self: center;\n}\n\nmain .position-card .position-dates .end-date {\n    justify-self: start;\n}\n\nmain .position-card .position-dates .dash {\n    margin: 0 1rem 0 1rem;\n}\n\nmain .position-card .position-desc {\n    align-self: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
