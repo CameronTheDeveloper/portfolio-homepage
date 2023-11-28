@@ -35,9 +35,8 @@ main .link-icons-container a:hover {
 /* Web Apps */
 
 main .apps-section {
-    display: grid;
-    grid-template-rows: 1fr 50fr;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 main .apps-section .apps-section-header {
@@ -98,9 +97,8 @@ main .web-app-card .button-container button:hover {
 /* Positions */
 
 main .positions-section {
-    display: grid;
-    justify-items: center;
-    grid-template-rows: 1fr 25fr;
+    display: flex;
+    flex-direction: column;
     margin: 3rem 0 1rem 0;
 }
 
