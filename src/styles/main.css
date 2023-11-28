@@ -42,6 +42,10 @@ main .apps-section {
     justify-items: center;
 }
 
+main .apps-section .apps-section-header {
+    margin: 1rem;
+}
+
 main .apps-section .apps-container {
     display: grid;
 }
@@ -100,6 +104,10 @@ main .positions-section {
     justify-items: center;
     grid-template-rows: 1fr 25fr;
     margin: 3rem 0 1rem 0;
+}
+
+main .positions-section .positions-section-header {
+    margin: 1rem;
 }
 
 main .positions-section .positions-container {
