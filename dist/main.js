@@ -86,7 +86,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     display: grid;
-    grid-template-rows: 3fr 15fr 5fr;
+    grid-template-rows: 1fr 8fr 2fr;
     padding: 1rem 0 0 0;
 }
 
@@ -128,7 +128,7 @@ footer .contact-me span {
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom,
             #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,gCAAgC;IAChC,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,gBAAgB;AACpB;;AAEA;IACI,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 3fr 15fr 5fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-top {\n    text-align: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n}\n\n#back-to-top-button {\n    flex: 1;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,gBAAgB;AACpB;;AAEA;IACI,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,gBAAgB;IAChB,0BAA0B;IAC1B,qCAAqC;IACrC,YAAY;IACZ,oCAAoC;IACpC;wDACoD;AACxD","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 8fr 2fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .footer-top {\n    text-align: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    margin-left: 1.2rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n}\n\n#back-to-top-button {\n    flex: 1;\n    margin-bottom: 0;\n    padding: 0.5rem;\n    font-weight: 700;\n    border-radius: 50% 50% 0 0;\n    border: 3px 0 0 0 dotted rgb(0, 0, 0);\n    color: black;\n    background-color: rgb(255, 255, 255);\n    background-image: linear-gradient(to bottom,\n            #ffffff, #d3d3d3, #a9a9a9, #808080, #5a5a5a);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
