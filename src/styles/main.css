@@ -1,9 +1,7 @@
 main {
-    display: grid;
-    grid-template-rows: 1fr 17fr 5fr;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
-    justify-content: center;
-    justify-items: center;
     background-color: grey;
 }
 
