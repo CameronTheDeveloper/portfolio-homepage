@@ -1,6 +1,5 @@
 header {
     display: grid;
-    grid-template-rows: 1fr 2fr 6fr 1fr;
 }
 
 .header-top {
