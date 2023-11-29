@@ -78,6 +78,10 @@ main .web-app-card .button-container button {
     border-bottom: none;
 }
 
+main .web-app-card .button-container img {
+    width: 4.5rem;
+}
+
 main .web-app-card .button-container button.open-github {
     border-right: none;
     border-bottom-right-radius: 16px
