@@ -99,6 +99,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     justify-content: center;
 }
 
+footer .footer-top {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
 footer .contact-me-container {
     display: grid;
     padding: 1rem;
@@ -123,7 +127,7 @@ footer .contact-me span {
     justify-content: center;
     font-size: 1.1rem;
     margin-top: 1rem;
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,iBAAiB;IACjB,gBAAgB;AACpB","sourcesContent":["footer {\n    display: grid;\n    padding: 1rem;\n    justify-content: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    justify-content: center;\n    font-size: 1.1rem;\n    margin-top: 1rem;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,4BAA4B;AAChC;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,iBAAiB;IACjB,gBAAgB;AACpB","sourcesContent":["footer {\n    display: grid;\n    padding: 1rem;\n    justify-content: center;\n}\n\nfooter .footer-top {\n    padding: 0rem 1rem 1rem 1rem;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    justify-content: center;\n    font-size: 1.1rem;\n    margin-top: 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
