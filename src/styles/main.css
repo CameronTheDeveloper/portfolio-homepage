@@ -25,10 +25,17 @@ main .link-icons-container a {
     border: none;
     border-radius: 15%;
     text-decoration: none;
+    color: #1c0044;
 }
 
 main .link-icons-container a:hover {
-    background-color: rgba(5, 5, 5, 0.267);
+    background-color: rgba(5, 5, 5, 0.225);
+    color: #42009e;
+}
+
+main .link-icons-container a:focus {
+    background-color: rgba(5, 5, 5, 0.12);
+    color: #42009e;
 }
 
 /* Web Apps */
