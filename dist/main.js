@@ -96,11 +96,14 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     display: grid;
     padding: 1rem;
-    justify-items: center;
 }
 
 footer .footer-top {
     padding: 0rem 1rem 1rem 1rem;
+}
+
+footer .footer-headline {
+    justify-self: center;
 }
 
 footer .contact-me-container {
@@ -128,7 +131,7 @@ footer .contact-me span {
     justify-content: center;
     font-size: 1.1rem;
     margin-top: 1rem;
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,4BAA4B;AAChC;;AAEA;IACI,aAAa;IACb,2DAA2D;IAC3D,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,iBAAiB;IACjB,gBAAgB;AACpB","sourcesContent":["footer {\n    display: grid;\n    padding: 1rem;\n    justify-items: center;\n}\n\nfooter .footer-top {\n    padding: 0rem 1rem 1rem 1rem;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    justify-content: center;\n    font-size: 1.1rem;\n    margin-top: 1rem;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,4BAA4B;AAChC;;AAEA;IACI,oBAAoB;AACxB;;AAEA;IACI,aAAa;IACb,2DAA2D;IAC3D,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,iBAAiB;IACjB,gBAAgB;AACpB","sourcesContent":["footer {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .footer-top {\n    padding: 0rem 1rem 1rem 1rem;\n}\n\nfooter .footer-headline {\n    justify-self: center;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    justify-content: center;\n    font-size: 1.1rem;\n    margin-top: 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
