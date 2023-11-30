@@ -124,6 +124,7 @@ main .positions-section .positions-section-header {
 
 main .positions-section .positions-container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 }
 
 main .positions-container .position-card {
@@ -131,8 +132,8 @@ main .positions-container .position-card {
     grid-template-rows: 7fr 6fr;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(115, 255, 90);
-    padding: 2rem;
-    margin: 1rem 0 3rem 0;
+    padding: 1.5rem;
+    margin: 1rem 1rem 3rem 1rem;
     border-radius: 8px;
 }
 
