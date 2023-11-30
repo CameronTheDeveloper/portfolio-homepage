@@ -1,6 +1,7 @@
 footer {
     display: grid;
     padding: 1rem;
+    justify-content: center;
 }
 
 footer .contact-me-container {
