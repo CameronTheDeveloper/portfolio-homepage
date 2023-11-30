@@ -55,8 +55,8 @@ h6 {
     text-align: center;
 }
 
-button {
-    font-size: 1rem;
+img {
+    max-width: 100%;
 }
 
 #container {
@@ -66,7 +66,8 @@ button {
 
 button {
     cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;;;;;;IAMI,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2.25rem;\n}\n\nh2 {\n    font-size: 1.75rem;\n}\n\nh3 {\n    font-size: 1.5rem;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    text-align: center;\n}\n\nbutton {\n    font-size: 1rem;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\nbutton {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+    font-size: 1rem;
+}`, "",{"version":3,"sources":["webpack://./src/styles/body.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,iCAAiC;AACrC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;;;;;;IAMI,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,eAAe;IACf,eAAe;AACnB","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\nbody {\n    min-height: 100vh;\n    max-width: 100%;\n    font-size: 100%;\n    font-weight: 700;\n}\n\nh1 {\n    font-size: 2.25rem;\n}\n\nh2 {\n    font-size: 1.75rem;\n}\n\nh3 {\n    font-size: 1.5rem;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    text-align: center;\n}\n\nimg {\n    max-width: 100%;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\nbutton {\n    cursor: pointer;\n    font-size: 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
