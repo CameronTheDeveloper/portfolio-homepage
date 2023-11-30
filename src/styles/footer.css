@@ -4,6 +4,10 @@ footer {
     justify-content: center;
 }
 
+footer .footer-top {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
 footer .contact-me-container {
     display: grid;
     padding: 1rem;
