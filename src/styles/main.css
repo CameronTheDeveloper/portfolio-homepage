@@ -64,7 +64,7 @@ main .apps-container .web-app-card {
     display: grid;
     grid-template-columns: 1fr;
     border: 1px solid rgb(0, 0, 0);
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 1rem 3rem 1rem;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
 }
