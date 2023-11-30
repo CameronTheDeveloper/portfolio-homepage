@@ -201,16 +201,16 @@ header .self-portrait1-container img {
 }
 
 .about-me-section .image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .about-me-section .image-container img {
     object-fit: fill;
     margin-top: 1rem;
     border-radius: 50px;
-    border: 1px solid rgb(74, 209, 83)
+    border: 2px solid rgb(74, 209, 83)
 }
 
 /* header-bottom */
@@ -228,7 +228,7 @@ header .self-portrait1-container img {
     font-size: 1.5rem;
     border-radius: 50px;
     border: 2px double black;
-}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;IAClB,aAAa;IACb,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;AACtB;;AAEA,mBAAmB;;AAEnB;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA,qBAAqB;;AAErB;IACI,aAAa;IACb,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,oBAAoB;AACxB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA,kBAAkB;;AAElB;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,aAAa;IACb,YAAY;AAChB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;IACjB,mBAAmB;IACnB,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n}\n\n.header-top {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    padding: 1rem;\n    font-size: 2rem;\n}\n\n.header-top span {\n    font-size: 2rem;\n}\n\n.header-top span.page-header-name {\n    font-size: 2.25rem;\n}\n\n/* self-portrait1 */\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 1rem;\n    padding: 1rem 0 1rem 0;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n/* about-me-section */\n\n.about-me-section {\n    display: grid;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    place-self: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: end;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 1px solid rgb(74, 209, 83)\n}\n\n/* header-bottom */\n\n.header-bottom {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: 1rem;\n    margin: 2rem;\n}\n\n.header-bottom .hire-me-button {\n    padding: 1.25rem;\n    font-size: 1.5rem;\n    border-radius: 50px;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;IAClB,aAAa;IACb,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;AACtB;;AAEA,mBAAmB;;AAEnB;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,eAAe;AACnB;;AAEA,qBAAqB;;AAErB;IACI,aAAa;IACb,oCAAoC;IACpC,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,oBAAoB;AACxB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB;AACJ;;AAEA,kBAAkB;;AAElB;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,aAAa;IACb,YAAY;AAChB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;IACjB,mBAAmB;IACnB,wBAAwB;AAC5B","sourcesContent":["header {\n    display: grid;\n}\n\n.header-top {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    padding: 1rem;\n    font-size: 2rem;\n}\n\n.header-top span {\n    font-size: 2rem;\n}\n\n.header-top span.page-header-name {\n    font-size: 2.25rem;\n}\n\n/* self-portrait1 */\n\nheader .self-portrait1-container {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 1rem;\n    padding: 1rem 0 1rem 0;\n}\n\nheader .self-portrait1-container img {\n    height: auto;\n    max-width: 100%;\n}\n\n/* about-me-section */\n\n.about-me-section {\n    display: grid;\n    background-color: rgb(219, 219, 219);\n    border: 2px dashed rgb(0, 0, 0);\n    border-radius: 50px;\n}\n\n.about-me-section .title {\n    place-self: center;\n    padding: 1rem;\n}\n\n.about-me-section .body {\n    padding: 1rem;\n}\n\n.about-me-section .image-container {\n    display: grid;\n    justify-content: center;\n    padding-bottom: 1rem;\n}\n\n.about-me-section .image-container img {\n    object-fit: fill;\n    margin-top: 1rem;\n    border-radius: 50px;\n    border: 2px solid rgb(74, 209, 83)\n}\n\n/* header-bottom */\n\n.header-bottom {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: 1rem;\n    margin: 2rem;\n}\n\n.header-bottom .hire-me-button {\n    padding: 1.25rem;\n    font-size: 1.5rem;\n    border-radius: 50px;\n    border: 2px double black;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
