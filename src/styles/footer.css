@@ -17,6 +17,12 @@ footer .contact-me-container {
     padding: 1rem;
 }
 
+@media (min-width: 950px) {
+    footer .contact-me-container {
+        justify-items: center;
+    }
+}
+
 footer .contact-me {
     display: flex;
     align-items: center;
