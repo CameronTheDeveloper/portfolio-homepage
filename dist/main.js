@@ -95,7 +95,6 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `footer {
     display: grid;
-    grid-template-rows: 1fr 8fr 2fr;
     padding: 1rem 0 0 0;
 }
 
@@ -122,7 +121,7 @@ footer .contact-me span {
     align-items: end;
     padding: 1rem;
     justify-content: center;
-}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,+BAA+B;IAC/B,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,aAAa;IACb,uBAAuB;AAC3B","sourcesContent":["footer {\n    display: grid;\n    grid-template-rows: 1fr 8fr 2fr;\n    padding: 1rem 0 0 0;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    padding: 1rem;\n    justify-content: center;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,gBAAgB;IAChB,aAAa;IACb,uBAAuB;AAC3B","sourcesContent":["footer {\n    display: grid;\n    padding: 1rem 0 0 0;\n}\n\nfooter .contact-me-container {\n    display: grid;\n    padding: 1rem;\n}\n\nfooter .contact-me {\n    display: flex;\n    align-items: center;\n}\n\nfooter .contact-me img {\n    width: 2rem;\n}\n\nfooter .contact-me span {\n    padding: .75rem;\n}\n\n.footer-bottom {\n    display: flex;\n    align-items: end;\n    padding: 1rem;\n    justify-content: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
