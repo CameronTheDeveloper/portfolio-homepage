@@ -14,7 +14,7 @@ footer .footer-headline {
 footer .contact-me-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 @media (min-width: 950px) {
@@ -41,5 +41,4 @@ footer .contact-me span {
     align-items: end;
     justify-content: center;
     font-size: 1.1rem;
-    margin-top: 1rem;
 }
